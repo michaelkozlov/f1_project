@@ -9,3 +9,21 @@ body{
   background: #202234;
   height: 100vh;
 }
+
+a{
+  color: #D4D5D8;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #5965E7;
+}
+
+a:visited{
+  color: #D4D5D8;
+}
+
+a:visited:hover{
+  color: #5965E7;
+}
