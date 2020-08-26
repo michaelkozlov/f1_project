@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import LeftSidebar from "./Components/LeftSidebar/LeftSidebar";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="wrapper">
+        <LeftSidebar />
     </div>
   );
 }
