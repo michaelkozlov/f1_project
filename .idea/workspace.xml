@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Origin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="997045cf9e4ed941831a101519ce899287f38291" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1geHnRr0OXAFCwQMW7iJgJcefdv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="" />
+      <created>1598468304519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598468304519</updated>
+      <workItem from="1598468307115" duration="931000" />
+      <workItem from="1598469239425" duration="361000" />
+      <workItem from="1598469602921" duration="53000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1598468523101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598468523101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598469673018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469673018" />
+    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog" timestamp="1598469402061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469402061" />
+    <state x="195" y="71" key="MergeDialog" timestamp="1598469553158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="195" y="71" key="MergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469553158" />
+    <state x="840" y="385" key="MultipleFileMergeDialog" timestamp="1598469553164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="840" y="385" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469553164" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1598469124928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469124928" />
+    <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598468422937" />
+    <state x="640" y="293" key="git4idea.merge.GitPullDialog" timestamp="1598469077018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="293" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469077018" />
+    <state x="769" y="362" width="382" height="318" key="git4idea.rebase.GitRebaseDialog" timestamp="1598469395314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="362" width="382" height="318" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469395314" />
+    <state x="763" y="427" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1598469554633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="427" key="git4idea.rebase.GitUnstructuredEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469554633" />
+    <state x="713" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598469028526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="415" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469028526" />
+  </component>
+</project>
