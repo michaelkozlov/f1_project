@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="AntDesign test Table Components">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Circuit/Circuit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Circuit/Circuit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" afterDir="false" />
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +162,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
