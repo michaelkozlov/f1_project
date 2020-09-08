@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import LeftSidebar from "./Components/LeftSidebar/LeftSidebar";
-import Header from "./Components/Header/Header";
-import Circuit from "./Components/Circuit/Circuit";
+// import './App.css';
+import { Table } from 'antd';
+import 'antd/dist/antd.css';
 
-function App() {
+const Circuit = () =>{
+
     const dataSource = [
         {
             key: '1',
@@ -38,14 +38,7 @@ function App() {
         },
     ];
 
-
-    return (
-    <div className="wrapper">
-        <Header />
-        <LeftSidebar />
-        <Circuit />
-    </div>
-  );
+    return <Table dataSource={dataSource} columns={columns} />;
 }
 
-export default App;
+export default Circuit;
