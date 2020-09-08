@@ -1,9 +1,9 @@
 import React from 'react';
-// import './App.css';
-import { Table } from 'antd';
+import '../../App.css';
+import {Table} from 'antd';
 import 'antd/dist/antd.css';
 
-const Circuit = () =>{
+const Circuit = () => {
 
     const dataSource = [
         {
@@ -38,7 +38,12 @@ const Circuit = () =>{
         },
     ];
 
-    return <Table dataSource={dataSource} columns={columns} />;
+    return (
+        <div className="bbb">
+            <h1 className="h1_main_content">Circuit</h1>
+            <Table dataSource={dataSource} columns={columns}/>;
+        </div>
+    )
 }
 
 export default Circuit;

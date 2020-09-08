@@ -1,6 +1,11 @@
-.left_sidebar{
-    display: flex;
-    height: 90vh;
-    width: 15%;
-    background: #31334A;
+.left_menu{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.left_menu li {
+    font-size: 18px;
+    padding-bottom: 8px;
+    color: #686A7B;
 }
