@@ -19,8 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.module.css" afterDir="false" />
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="LeftMenu">
+      <change afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/circuitsReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +61,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
@@ -73,6 +80,8 @@
       <workItem from="1598998907923" duration="56000" />
       <workItem from="1599072345088" duration="58000" />
       <workItem from="1599601015131" duration="2234000" />
+      <workItem from="1599679267686" duration="148000" />
+      <workItem from="1600110987921" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -88,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599601722364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LeftMenu">
+      <created>1599603988030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599603988030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +125,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="AntDesign test Table Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="AntDesign test Table Components" />
+    <MESSAGE value="LeftMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeftMenu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599072401167">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599679414357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072401167" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599679414357" />
     <state x="452" y="203" key="Git.Interactive.Rebase.Dialog" timestamp="1598469402061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1599601724428">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1599603989653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599601724428" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599603989653" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
