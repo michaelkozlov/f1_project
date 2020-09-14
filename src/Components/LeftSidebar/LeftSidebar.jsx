@@ -1,10 +1,12 @@
 import React from "react";
 import style from "./LeftSidebar.module.css";
+import {NavLink} from "react-router-dom";
 
 const LeftSidebar = (props) => {
     return (
         <div>
             <ul className={style.left_menu}>
+                <li><NavLink to="/circuits">Circuit</NavLink></li>
                 <li>Season List</li>
                 <li>Race Schedule</li>
                 <li>Race Results</li>

@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import LeftSidebar from "./Components/LeftSidebar/LeftSidebar";
 import Header from "./Components/Header/Header";
-import Circuit from "./Components/Circuit/Circuit";
+import CircuitsContainer from "./Components/Circuit/CircuitsContainer";
+import {Route} from "react-router-dom";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
                     <LeftSidebar/>
                 </div>
                 <div className="main-content">
-                    <Circuit/>
+                    <Route exact path="/circuits" render={() => <CircuitsContainer/>}/>
                 </div>
             </div>
         </div>

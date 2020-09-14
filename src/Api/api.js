@@ -6,7 +6,7 @@ const instance = axios.create({
 
 export const ergastApi = {
     getCircuits () {
-        return instance.get(`circuits.json`)
+        return instance.get(`/circuits.json`)
             .then(response => response.data);
     },
 }

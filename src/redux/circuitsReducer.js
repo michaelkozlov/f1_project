@@ -1,32 +1,42 @@
 import {ergastApi} from "../Api/api";
 
 const SETCIRCUITS="SETCIRCUITS";
-
 const initialState={
-    dataSource: [],
+    dataSource: [
+    ],
     columns: [{
-        title: 'Circuit',
+        title: 'Название трассы',
         dataIndex: 'circuit',
         key: 'circuit',
     },
         {
-            title: 'Locality',
+            title: 'Место',
             dataIndex: 'locality',
             key: 'locality',
         },
         {
-            title: 'Country',
+            title: 'Страна',
             dataIndex: 'country',
             key: 'country',
         },],
 }
+debugger;
+console.log(initialState.dataSource)
 
 const circuitsReducer=(state=initialState, action)=>{
     switch (action.type) {
         case SETCIRCUITS :
+            debugger;
             return {
                 ...state,
-                dataSource: action.circuitsData,
+                dataSource: action.circuitsData.map(el => {
+                    return {
+                        key : el.circuitId,
+                        circuit : el.circuitName,
+                        locality : el.Location.locality,
+                        country : el.Location.country,
+                    }
+                })
             }
         default :
             return state;
@@ -41,7 +51,11 @@ export const setCircuitsData=(circuitsData)=>{
 }
 
 export const circuitsData=()=>(dispatch)=>{
-    console.log(ergastApi.getCircuits());
+    ergastApi.getCircuits().then(data=>{
+        let circuitsData=data.MRData.CircuitTable.Circuits;
+        console.log(circuitsData)
+        dispatch(setCircuitsData(circuitsData));
+    });
 }
 
-export default circuitsReducer();
+export default circuitsReducer;
