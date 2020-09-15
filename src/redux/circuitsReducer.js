@@ -1,6 +1,6 @@
 import {ergastApi} from "../Api/api";
-
 const SETCIRCUITS="SETCIRCUITS";
+
 const initialState={
     dataSource: [
     ],
@@ -20,8 +20,6 @@ const initialState={
             key: 'country',
         },],
 }
-debugger;
-console.log(initialState.dataSource)
 
 const circuitsReducer=(state=initialState, action)=>{
     switch (action.type) {
@@ -52,6 +50,7 @@ export const setCircuitsData=(circuitsData)=>{
 
 export const circuitsData=()=>(dispatch)=>{
     ergastApi.getCircuits().then(data=>{
+        console.log(data)
         let circuitsData=data.MRData.CircuitTable.Circuits;
         console.log(circuitsData)
         dispatch(setCircuitsData(circuitsData));

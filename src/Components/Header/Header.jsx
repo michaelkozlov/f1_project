@@ -1,11 +1,12 @@
 import React from "react";
 import style from "./Header.module.css";
+import {NavLink} from "react-router-dom";
 
 const Header = () =>{
     return (
         <header className={style.header}>
             <div className={style.logo}>
-                <span>F1 history</span>
+                <span><NavLink to={"/"}>F1 history</NavLink></span>
             </div>
             <div className={style.top_menu}>
                     <div><a href="#">Main</a></div>

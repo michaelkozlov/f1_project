@@ -19,15 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="circuitsReducer">
-      <change afterPath="$PROJECT_DIR$/src/Components/Circuit/CircuitsContainer.js" afterDir="false" />
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="Curcuits Component + Thunk + Api + Router">
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/NewsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/newsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Circuit/Circuit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Circuit/Circuit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/circuitsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/circuitsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,8 @@
       <workItem from="1599072345088" duration="58000" />
       <workItem from="1599601015131" duration="2234000" />
       <workItem from="1599679267686" duration="148000" />
-      <workItem from="1600110987921" duration="9569000" />
+      <workItem from="1600110987921" duration="10461000" />
+      <workItem from="1600200015007" duration="6343000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600113996162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Curcuits Component + Thunk + Api + Router">
+      <created>1600120805325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600120805325</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +154,8 @@
     <MESSAGE value="LeftMenu" />
     <MESSAGE value="add Thunk, Router, Redux, Reducer" />
     <MESSAGE value="circuitsReducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="circuitsReducer" />
+    <MESSAGE value="Curcuits Component + Thunk + Api + Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="Curcuits Component + Thunk + Api + Router" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599679414357">
@@ -166,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600113997540">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600120806434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600113997540" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600120806434" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

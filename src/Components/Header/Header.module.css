@@ -21,6 +21,11 @@ header{
     font-family: 'Oswald', sans-serif;
 }
 
+.logo span:hover{
+    color: #1890E2;
+    cursor: pointer;
+}
+
 .top_menu{
     display: flex;
     justify-content: center;
