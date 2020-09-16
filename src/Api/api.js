@@ -5,9 +5,6 @@ const instanceErgast = axios.create({
 });
 
 const instanceNewsApi = axios.create({
-    // headers: {
-    //     "apiKey": "0212c0ec2f1f4f48a0aa80f89e58cf80",
-    // },
     baseURL : "http://newsapi.org/v2/",
 
 });
@@ -21,7 +18,7 @@ export const ergastApi = {
 
 export const newsApi = {
     getPopularNews () {
-        return instanceNewsApi.get(`everything?q=f1 race&language=ru&apiKey=0212c0ec2f1f4f48a0aa80f89e58cf80`)
+        return instanceNewsApi.get(`everything?source=google-news-ru&q=формула-1&apiKey=0212c0ec2f1f4f48a0aa80f89e58cf80`)
             .then(response => response.data);
     },
 }
