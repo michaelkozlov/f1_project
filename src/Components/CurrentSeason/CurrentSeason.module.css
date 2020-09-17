@@ -1,0 +1,12 @@
+.ant-tabs{
+    color: white;
+}
+
+.active{
+    color: gold !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: black;
+    font-weight: 500;
+}

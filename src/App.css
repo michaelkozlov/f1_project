@@ -56,3 +56,9 @@ a:visited:hover{
 .h1_main_content{
   color: #D4D5D8;
 }
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+  color: gold;
+  background: #fff;
+}

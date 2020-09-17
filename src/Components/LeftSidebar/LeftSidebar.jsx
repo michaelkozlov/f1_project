@@ -6,6 +6,7 @@ const LeftSidebar = (props) => {
     return (
         <div>
             <ul className={style.left_menu}>
+                <li><NavLink to="/current-season">Season 2020</NavLink></li>
                 <li><NavLink to="/circuits">Circuit</NavLink></li>
                 <li>Season List</li>
                 <li>Race Schedule</li>
@@ -14,6 +15,7 @@ const LeftSidebar = (props) => {
                 <li>Standings</li>
                 <li>Driver Information</li>
                 <li>Constructor Information</li>
+                <li><NavLink to="/news">News</NavLink></li>
             </ul>
         </div>
     )
