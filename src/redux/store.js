@@ -2,12 +2,12 @@ import {applyMiddleware, combineReducers, createStore} from "redux";
 import thunkMiddleware from "redux-thunk";
 import circuitsReducer from "./circuitsReducer";
 import newsReducer from "./newsReducer";
-import raceScheduleCurrent from "./raceScheduleCurrent";
+import raceScheduleCurrentReducer from "./raceScheduleCurrent";
 
 const reducers = combineReducers({
     circuitsReducer,
     newsReducer,
-    raceScheduleCurrent,
+    raceScheduleCurrentReducer,
 });
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));

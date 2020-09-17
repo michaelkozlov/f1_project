@@ -14,6 +14,10 @@ export const ergastApi = {
         return instanceErgast.get(`/circuits.json`)
             .then(response => response.data);
     },
+    getRaceScheduleCurrentSeason(){
+        return instanceErgast.get(`/current.json`)
+            .then(response => response.data);
+    }
 }
 
 export const newsApi = {

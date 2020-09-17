@@ -5,10 +5,30 @@ const initialState={
     dataSource: [
     ],
     columns: [{
-        title: 'Название трассы',
-        dataIndex: 'circuit',
-        key: 'circuit',
+        title: 'Номер',
+        dataIndex: 'round',
+        key: 'round',
     },
+        {
+            title: 'Название гонки',
+            dataIndex: 'raceName',
+            key: 'raceName',
+        },
+        {
+            title: 'Дата',
+            dataIndex: 'date',
+            key: 'date',
+        },
+        {
+            title: 'Время',
+            dataIndex: 'time',
+            key: 'time',
+        },
+        {
+            title: 'Трасса',
+            dataIndex: 'circuit',
+            key: 'circuit',
+        },
         {
             title: 'Место',
             dataIndex: 'locality',
@@ -18,7 +38,8 @@ const initialState={
             title: 'Страна',
             dataIndex: 'country',
             key: 'country',
-        },],
+        },
+    ],
 }
 
 const RaceScheduleCurrent=(state=initialState, action)=>{
@@ -27,12 +48,15 @@ const RaceScheduleCurrent=(state=initialState, action)=>{
             debugger;
             return {
                 ...state,
-                dataSource: action.circuitsData.map(el => {
+                dataSource: action.raceScheduleCurrentData.map(el => {
                     return {
-                        key : el.circuitId,
-                        circuit : el.circuitName,
-                        locality : el.Location.locality,
-                        country : el.Location.country,
+                        round : el.round,
+                        raceName : el.raceName,
+                        date : el.date,
+                        time : el.time,
+                        circuit : el.Circuit.circuitName,
+                        locality : el.Circuit.Location.locality,
+                        country : el.Circuit.Location.country,
                     }
                 })
             }
@@ -41,19 +65,19 @@ const RaceScheduleCurrent=(state=initialState, action)=>{
     }
 }
 
-export const setCircuitsData=(circuitsData)=>{
+export const setRaceScheduleCurrentData=(raceScheduleCurrentData)=>{
     return {
-        type: SETCIRCUITS,
-        circuitsData,
+        type: SETRACESCHEDULECURRENT,
+        raceScheduleCurrentData,
     }
 }
 
-export const circuitsData=()=>(dispatch)=>{
-    ergastApi.getCircuits().then(data=>{
+export const RaceScheduleCurrentData=()=>(dispatch)=>{
+    ergastApi.getRaceScheduleCurrentSeason().then(data=>{
         console.log(data)
-        let circuitsData=data.MRData.CircuitTable.Circuits;
-        console.log(circuitsData)
-        dispatch(setCircuitsData(circuitsData));
+        let raceScheduleCurrentData = data.MRData.RaceTable.Races;
+        console.log(raceScheduleCurrentData)
+        dispatch(setRaceScheduleCurrentData(raceScheduleCurrentData));
     });
 }
 

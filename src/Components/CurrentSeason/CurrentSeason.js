@@ -1,5 +1,5 @@
 import React from "react";
-import RaceScheduleCurrent from "./RaceScheduleCurrent/RaceScheduleCurrent";
+import RaceScheduleCurrentContainer from "./RaceScheduleCurrent/RaceScheduleCurrentContainer";
 import DriverStandingsCurrent from "./DriverStandingsCurrent/DriverStandingsCurrent";
 import ConstructorStandingsCurrent from "./ConstructorStandingsCurrent/ConstructorStandingsCurrent";
 import RacesResultsCurrentSeason from "./RacesResultsCurrentSeason/RacesResultsCurrentSeason";
@@ -14,7 +14,7 @@ const CurrentSeason=(props)=>{
     return <>
         <Tabs className={style[`ant-tabs`]} defaultActiveKey="1">
             <TabPane tab="Расписание гонок" key="1">
-                <RaceScheduleCurrent/>
+                <RaceScheduleCurrentContainer/>
             </TabPane>
             <TabPane tab="Таблица пилотов" key="2">
                 <DriverStandingsCurrent/>
