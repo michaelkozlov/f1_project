@@ -4,9 +4,8 @@ import DriverStandingsCurrent from "./DriverStandingsCurrent/DriverStandingsCurr
 import ConstructorStandingsCurrent from "./ConstructorStandingsCurrent/ConstructorStandingsCurrent";
 import RacesResultsCurrentSeason from "./RacesResultsCurrentSeason/RacesResultsCurrentSeason";
 import style from "./CurrentSeason.module.css";
-import * as antd from "antd";
 import 'antd/dist/antd.css';
-const {  Tabs  } = antd;
+import { Tabs } from "antd";
 const { TabPane } = Tabs;
 
 const CurrentSeason=(props)=>{

@@ -8,7 +8,7 @@ const RaceScheduleCurrent=(props)=>{
         <Table dataSource={props.dataSource} columns={props.columns} pagination={{
             total: props.dataSource.length,
             pageSize: 6,
-            hideOnSinglePage: true
+            hideOnSinglePage: true,
         }}/>
     </div>
 }
