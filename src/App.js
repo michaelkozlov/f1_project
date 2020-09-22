@@ -6,6 +6,7 @@ import CircuitsContainer from "./Components/Circuit/CircuitsContainer";
 import {Route} from "react-router-dom";
 import NewsContainer from "./Components/News/NewsContainer";
 import CurrentSeasonContainer from "./Components/CurrentSeason/CurrentSeasonContainer";
+import RaceScheduleContainer from "./Components/RaceSchedule/RaceScheduleContainer";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                     <Route exact path="/current-season" render={() => <CurrentSeasonContainer/>}/>
                     <Route exact path="/news" render={() => <NewsContainer/>}/>
                     <Route exact path="/circuits" render={() => <CircuitsContainer/>}/>
+                    <Route exact path="/race-schedule" render={() => <RaceScheduleContainer />}/>
                 </div>
             </div>
         </div>

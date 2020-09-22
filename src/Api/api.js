@@ -21,6 +21,7 @@ export const ergastApi = {
             .then(response => response.data);
     },
     getRaceSchedule(year){
+        debugger;
         return instanceErgast.get(`${year}`)
             .then(response => response.data);
     }

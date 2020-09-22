@@ -9,7 +9,7 @@ const LeftSidebar = (props) => {
                 <li><NavLink to="/current-season">Season 2020</NavLink></li>
                 <li><NavLink to="/circuits">Circuit</NavLink></li>
                 <li>Season List</li>
-                <li>Race Schedule</li>
+                <li><NavLink to="/race-schedule">Race Schedule</NavLink></li>
                 <li>Race Results</li>
                 <li>Qualifying Results</li>
                 <li>Standings</li>
