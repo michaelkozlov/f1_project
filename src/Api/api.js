@@ -22,7 +22,7 @@ export const ergastApi = {
     },
     getRaceSchedule(year){
         debugger;
-        return instanceErgast.get(`${year}`)
+        return instanceErgast.get(`/${year}.json`)
             .then(response => response.data);
     }
 }

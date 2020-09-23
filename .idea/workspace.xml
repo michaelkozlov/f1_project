@@ -22,9 +22,9 @@
     <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="RaceSchedule component + select - not finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceScheduleContainer" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceScheduleContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceSchedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceSchedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceScheduleContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RaceSchedule/RaceScheduleContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/raceScheduleReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/raceScheduleReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/react-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,7 +92,8 @@
       <workItem from="1600287440867" duration="3110000" />
       <workItem from="1600371263418" duration="9792000" />
       <workItem from="1600544513558" duration="2124000" />
-      <workItem from="1600806433286" duration="3582000" />
+      <workItem from="1600806433286" duration="3719000" />
+      <workItem from="1600886459263" duration="5738000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600809442093</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="RaceSchedule component + select - not finished">
+      <created>1600810122970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600810122970</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,10 +244,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600809445305">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600810125682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600809445305" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600810125682" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

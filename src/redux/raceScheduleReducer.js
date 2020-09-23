@@ -3,7 +3,7 @@ const SETRACESCHEDULEYEAR="SETRACESCHEDULEYEAR";
 const SELECTEDYEAR = "SELECTEDYEAR";
 
 const initialState={
-    year : 2019,
+    year : 2010,
     dataSource: [
     ],
     columns: [{
@@ -45,6 +45,7 @@ const initialState={
 }
 
 const raceScheduleReducer=(state=initialState, action)=>{
+    debugger;
     switch (action.type) {
         case SELECTEDYEAR :
             return {
@@ -55,7 +56,7 @@ const raceScheduleReducer=(state=initialState, action)=>{
             debugger;
             return {
                 ...state,
-                dataSource: action.raceScheduleCurrentData.map(el => {
+                dataSource: action.raceScheduleData.map(el => {
                     return {
                         round : el.round,
                         raceName : el.raceName,

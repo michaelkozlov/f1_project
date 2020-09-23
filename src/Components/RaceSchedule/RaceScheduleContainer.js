@@ -8,8 +8,15 @@ class RaceScheduleApi extends React.Component {
         this.props.RaceScheduleData(this.props.selectedYear);
     }
 
+    componentDidUpdate(nextProps, nextState) {
+        if(this.props.selectedYear !== nextProps.selectedYear){
+            this.props.RaceScheduleData(this.props.selectedYear);
+        }
+     }
+
     render() {
-        return <RaceSchedule columns={this.props.columns} dataSource={this.props.dataSource}/>;
+        return <RaceSchedule columns={this.props.columns} dataSource={this.props.dataSource} selectedYear={this.props.selectedYear}
+        setSelectedYear={this.props.setSelectedYear}/>;
     }
 }
 
