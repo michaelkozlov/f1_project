@@ -3,7 +3,7 @@ const SETRACESCHEDULEYEAR="SETRACESCHEDULEYEAR";
 const SELECTEDYEAR = "SELECTEDYEAR";
 
 const initialState={
-    year : 2010,
+    year : 2020,
     dataSource: [
     ],
     columns: [{

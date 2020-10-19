@@ -24,6 +24,9 @@ export const ergastApi = {
         debugger;
         return instanceErgast.get(`/${year}.json`)
             .then(response => response.data);
+    },
+    getCurrentDriverStandings(){
+        return instanceErgast.get(`/current/driverStandings.json`).then(response => response.data);
     }
 }
 

@@ -22,13 +22,16 @@ const RaceSchedule=(props)=>{
 
     debugger;
     return <div className="bbb">
-        <h1 className="h1_main_content">Race Schedule</h1>
-        <Select value={props.selectedYear} style={{width: 120}} ref={ref} onChange={changeYear}>
-            {yearsArray.map(year=><Option value={`${year}`}>{year}</Option>)}
-        </Select>
+        <h1 className="h1_main_content">Гонки сезона {props.selectedYear} года</h1>
+        <div className="select_season">
+            <p>Выбор сезона:</p>
+            <Select value={props.selectedYear} style={{width: 120}} ref={ref} onChange={changeYear}>
+                {yearsArray.map(year=><Option value={`${year}`}>{year}</Option>)}
+            </Select>
+        </div>
         <Table dataSource={props.dataSource} columns={props.columns} pagination={{
             total: props.dataSource.length,
-            pageSize: 6,
+            pageSize: 8,
             hideOnSinglePage: true,
         }}/>
     </div>

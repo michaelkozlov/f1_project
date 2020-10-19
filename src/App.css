@@ -48,11 +48,6 @@ a:visited:hover{
   align-items: flex-start;
 }
 
-.bbb{
-  margin-top: 50px;
-  width: 80%;
-}
-
 .h1_main_content{
   color: #D4D5D8;
 }
@@ -61,4 +56,19 @@ a:visited:hover{
 .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
   color: gold;
   background: #fff;
+}
+
+.select_season{
+  display: flex;
+  color: #D4D5D8;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.select_season p{
+  margin-right: 15px;
+}
+
+.table_container{
+  width: 100%;
 }
