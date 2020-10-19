@@ -19,12 +19,14 @@ function App() {
                     <LeftSidebar/>
                 </div>
                 <div className="main-content">
+                    <div className="main-content-wrapper">
                     <Route exact path="/" render={() => <FirstPage/>}/>
                     <Route exact path="/current-season" render={() => <CurrentSeasonContainer/>}/>
                     <Route exact path="/news" render={() => <NewsContainer/>}/>
                     <Route exact path="/circuits" render={() => <CircuitsContainer/>}/>
                     <Route exact path="/race-schedule" render={() => <RaceScheduleContainer />}/>
                 </div>
+            </div>
             </div>
         </div>
     );

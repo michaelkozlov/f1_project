@@ -21,7 +21,7 @@ const RaceSchedule=(props)=>{
     }
 
     debugger;
-    return <div className="bbb">
+    return <div>
         <h1 className="h1_main_content">Гонки сезона {props.selectedYear} года</h1>
         <div className="select_season">
             <p>Выбор сезона:</p>

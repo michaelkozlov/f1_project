@@ -7,7 +7,7 @@ const LeftSidebar = (props) => {
         <div>
             <ul className={style.left_menu}>
                 <li><NavLink to="/current-season">Сезон 2020 года</NavLink></li>
-                <li><NavLink to="/circuits">Circuit</NavLink></li>
+                <li><NavLink to="/circuits">Трассы</NavLink></li>
                 <li>Season List</li>
                 <li><NavLink to="/race-schedule">Расписание гонок</NavLink></li>
                 <li>Race Results</li>
