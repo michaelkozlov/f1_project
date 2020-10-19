@@ -58,6 +58,10 @@ a:visited:hover{
   background: #fff;
 }
 
+.ant-table-row .ant-table-row-level-0{
+  font-weight: bold;
+}
+
 .select_season{
   display: flex;
   color: #D4D5D8;

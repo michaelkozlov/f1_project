@@ -25,6 +25,11 @@ const initialState={
             key: 'points',
         },
         {
+            title: 'Очков до лидера',
+            dataIndex: 'pointsBeforeLeader',
+            key: 'pointsBeforeLeader',
+        },
+        {
             title: 'Побед в сезоне',
             dataIndex: 'wins',
             key: 'wins',
@@ -43,6 +48,7 @@ const currentDriverStandings=(state=initialState, action)=>{
                         racer : el.Driver.givenName + " " + el.Driver.familyName,
                         constructor : el.Constructors[0].name,
                         points : el.points,
+                        pointsBeforeLeader : +action.currentDriverStandings[0].points - +el.points,
                         wins : el.wins,
                     }
                 })

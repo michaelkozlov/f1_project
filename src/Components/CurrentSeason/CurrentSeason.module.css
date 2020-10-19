@@ -3,6 +3,10 @@
     width: 90%;
 }
 
+.ant-table-row .ant-table-row-level-0{
+    font-weight: bold;
+}
+
 .active{
     color: gold !important;
 }
