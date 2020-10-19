@@ -67,6 +67,7 @@ a:visited:hover{
   color: #D4D5D8;
   justify-content: flex-start;
   align-items: baseline;
+  margin-bottom: 10px;
 }
 
 .select_season p{
@@ -98,4 +99,5 @@ a:visited:hover{
 
 .main-content-wrapper{
   width: 90%;
+  margin-top: 20px;
 }
