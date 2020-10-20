@@ -101,3 +101,11 @@ a:visited:hover{
   width: 90%;
   margin-top: 20px;
 }
+
+.next-race{
+  display: flex;
+}
+
+.next-race > p:first-child{
+  margin-right: 7px;
+}
