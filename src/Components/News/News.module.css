@@ -1,4 +1,29 @@
-.text{
-    color: white;
-    margin-bottom: 7px;
+.newsBlockWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
+
+.newsBlock{
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.left{
+    width: 25%;
+    margin-right: 10px;
+}
+
+.left img{
+    max-width: 100%;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 70%;
+}
+

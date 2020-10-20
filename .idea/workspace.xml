@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/News.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/NewsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/NewsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/newsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/newsReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +106,8 @@
       <workItem from="1600886459263" duration="5797000" />
       <workItem from="1603131073067" duration="11492000" />
       <workItem from="1603144382169" duration="450000" />
-      <workItem from="1603219340397" duration="7427000" />
+      <workItem from="1603219340397" duration="7668000" />
+      <workItem from="1603230488046" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -277,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603227002594</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
+      <created>1603227245478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603227245478</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

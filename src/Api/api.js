@@ -34,7 +34,7 @@ export const ergastApi={
 
 export const newsApi={
     getPopularNews() {
-        return instanceNewsApi.get(`everything?source=google-news-ru&q=формула-1&apiKey=${key}`)
+        return instanceNewsApi.get(`everything?domains=f1news.ru&apiKey=${key}`)
             .then(response=>response.data);
     },
 }

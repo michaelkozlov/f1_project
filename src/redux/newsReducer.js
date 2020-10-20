@@ -2,14 +2,14 @@ import {newsApi} from "../Api/api";
 const SETNEWS="SETNEWS";
 
 const initialState={
-    newsTitle: [],
+    news: [],
 }
 const newsReducer=(state=initialState, action)=>{
     switch (action.type) {
         case SETNEWS:
             return {
                 ...state,
-                newsTitle: [...action.newsData.map(el => el.title)],
+                news: [...action.newsData],
             }
         default:
             return state;

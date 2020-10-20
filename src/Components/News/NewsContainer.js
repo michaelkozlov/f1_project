@@ -5,19 +5,20 @@ import {setNewsData} from "../../redux/newsReducer";
 
 class NewsContainerApi extends React.Component {
 
-    componentDidMount() {
-        debugger;
-        this.props.setNewsData();
+    componentDidMount() {this.props.setNewsData()
+       setInterval(()=>{
+           this.props.setNewsData();
+       }, 1000000)
     }
 
     render() {
-        return <News newsTitle={this.props.newsTitle}/>;
+        return <News news={this.props.news}/>;
     }
 }
 
 let mapStateToProps=(state)=>{
     return {
-        newsTitle : state.newsReducer.newsTitle,
+        news : state.newsReducer.news,
     }
 }
 

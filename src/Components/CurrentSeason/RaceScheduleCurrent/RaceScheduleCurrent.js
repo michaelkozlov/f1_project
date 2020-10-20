@@ -9,7 +9,7 @@ const RaceScheduleCurrent=(props)=>{
     let currentDate = `${today.getFullYear()}${today.getMonth() + 1}${today.getDate()}`;
     let filterRace = props.dataSource.map(race => +race.date.split("-").join("")).filter((el) => el >= +currentDate);
     let nextRace = props.dataSource.filter(el => +el.date.split("-").join("") === filterRace[0]);
-console.log(nextRace)
+
     return <div>
         <h1 className="h1_main_content">Календарь сезона 2020</h1>
         <div className="next-race">
