@@ -7,6 +7,7 @@ import style from "./CurrentSeason.module.css";
 import 'antd/dist/antd.css';
 import { Tabs } from "antd";
 import DriverStandingsCurrentContainer from "./DriverStandingsCurrent/DriverStandigsCurrentContainer";
+import ConstructorStandingsCurrentContainer from "./ConstructorStandingsCurrent/ConstructorStandingsCurrentContainer";
 const { TabPane } = Tabs;
 
 const CurrentSeason=(props)=>{
@@ -20,7 +21,7 @@ const CurrentSeason=(props)=>{
                 <DriverStandingsCurrentContainer/>
             </TabPane>
             <TabPane tab="Кубок конструкторов" key="3">
-                <ConstructorStandingsCurrent/>
+                <ConstructorStandingsCurrentContainer/>
             </TabPane>
             <TabPane tab="Результаты гонок" key="4">
                 <RacesResultsCurrentSeason/>

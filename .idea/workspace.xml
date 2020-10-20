@@ -19,10 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="style main block">
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="add new favicon">
+      <change afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/ConstructorStandingsCurrent/ConstructorStandingsCurrentContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/currentConstructorStandings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LeftSidebar/LeftSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/ConstructorStandingsCurrent/ConstructorStandingsCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/ConstructorStandingsCurrent/ConstructorStandingsCurrent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/CurrentSeason.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/CurrentSeason.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/newsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/newsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/raceScheduleCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/raceScheduleCurrent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/raceScheduleReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/raceScheduleReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +70,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -98,7 +108,8 @@
       <workItem from="1600806433286" duration="3719000" />
       <workItem from="1600886459263" duration="5797000" />
       <workItem from="1603131073067" duration="11492000" />
-      <workItem from="1603144382169" duration="405000" />
+      <workItem from="1603144382169" duration="450000" />
+      <workItem from="1603219340397" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -233,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603144117493</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add new favicon">
+      <created>1603144808617</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603144808617</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,9 +288,14 @@
     <MESSAGE value="First Page" />
     <MESSAGE value="width main block" />
     <MESSAGE value="style main block" />
-    <option name="LAST_COMMIT_MESSAGE" value="style main block" />
+    <MESSAGE value="add new favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new favicon" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="818" y="418" key="#ESLint" timestamp="1603220576519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="418" key="#ESLint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603220576519" />
     <state x="655" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600807235959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,10 +320,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603144118582">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603144810996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603144118582" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603144810996" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

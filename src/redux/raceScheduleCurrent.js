@@ -45,7 +45,6 @@ const initialState={
 const RaceScheduleCurrent=(state=initialState, action)=>{
     switch (action.type) {
         case SETRACESCHEDULECURRENT :
-            debugger;
             return {
                 ...state,
                 dataSource: action.raceScheduleCurrentData.map(el => {
@@ -74,9 +73,7 @@ export const setRaceScheduleCurrentData=(raceScheduleCurrentData)=>{
 
 export const RaceScheduleCurrentData=()=>(dispatch)=>{
     ergastApi.getRaceScheduleCurrentSeason().then(data=>{
-        console.log(data)
         let raceScheduleCurrentData = data.MRData.RaceTable.Races;
-        console.log(raceScheduleCurrentData)
         dispatch(setRaceScheduleCurrentData(raceScheduleCurrentData));
     });
 }

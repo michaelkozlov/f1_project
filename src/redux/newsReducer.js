@@ -4,9 +4,7 @@ const SETNEWS="SETNEWS";
 const initialState={
     newsTitle: [],
 }
-debugger;
 const newsReducer=(state=initialState, action)=>{
-    debugger;
     switch (action.type) {
         case SETNEWS:
             return {

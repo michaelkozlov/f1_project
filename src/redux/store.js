@@ -5,6 +5,7 @@ import newsReducer from "./newsReducer";
 import raceScheduleCurrentReducer from "./raceScheduleCurrent";
 import raceScheduleReducer from "./raceScheduleReducer";
 import currentDriverStandings from "./currentDriverStandings";
+import currentConstructorStandings from "./currentConstructorStandings";
 
 const reducers = combineReducers({
     circuitsReducer,
@@ -12,6 +13,7 @@ const reducers = combineReducers({
     raceScheduleCurrentReducer,
     raceScheduleReducer,
     currentDriverStandings,
+    currentConstructorStandings,
 });
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));

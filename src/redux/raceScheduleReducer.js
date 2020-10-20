@@ -45,7 +45,6 @@ const initialState={
 }
 
 const raceScheduleReducer=(state=initialState, action)=>{
-    debugger;
     switch (action.type) {
         case SELECTEDYEAR :
             return {
@@ -53,7 +52,6 @@ const raceScheduleReducer=(state=initialState, action)=>{
                 year: action.selectedYear,
             }
         case SETRACESCHEDULEYEAR :
-            debugger;
             return {
                 ...state,
                 dataSource: action.raceScheduleData.map(el => {
@@ -89,9 +87,7 @@ export const setSelectedYear=(selectedYear)=>{
 
 export const RaceScheduleData=(year)=>(dispatch)=>{
     ergastApi.getRaceSchedule(year).then(data=>{
-        console.log(year)
         let raceScheduleData = data.MRData.RaceTable.Races;
-        console.log(raceScheduleData)
         dispatch(setRaceScheduleData(raceScheduleData));
     });
 }
