@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="ConstructorStandingsCurrentSeason Component">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" afterDir="false" />
-    </list>
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="&quot;next Race&quot; in RaceScheduleCurrent Component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +98,7 @@
       <workItem from="1600886459263" duration="5797000" />
       <workItem from="1603131073067" duration="11492000" />
       <workItem from="1603144382169" duration="450000" />
-      <workItem from="1603219340397" duration="5131000" />
+      <workItem from="1603219340397" duration="5848000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603222252508</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;next Race&quot; in RaceScheduleCurrent Component">
+      <created>1603224990884</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603224990884</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +293,8 @@
     <MESSAGE value="style main block" />
     <MESSAGE value="add new favicon" />
     <MESSAGE value="ConstructorStandingsCurrentSeason Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConstructorStandingsCurrentSeason Component" />
+    <MESSAGE value="&quot;next Race&quot; in RaceScheduleCurrent Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;next Race&quot; in RaceScheduleCurrent Component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="818" y="418" key="#ESLint" timestamp="1603220576519">
@@ -320,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603222257940">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603224992066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603222257940" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603224992066" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
