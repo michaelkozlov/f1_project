@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="&quot;next Race&quot; in RaceScheduleCurrent Component">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
       <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
       <workItem from="1600886459263" duration="5797000" />
       <workItem from="1603131073067" duration="11492000" />
       <workItem from="1603144382169" duration="450000" />
-      <workItem from="1603219340397" duration="7174000" />
+      <workItem from="1603219340397" duration="7427000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1598468523101</created>
@@ -271,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603225979288</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
+      <created>1603227002594</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603227002594</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +317,8 @@
     <MESSAGE value="add new favicon" />
     <MESSAGE value="ConstructorStandingsCurrentSeason Component" />
     <MESSAGE value="&quot;next Race&quot; in RaceScheduleCurrent Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;next Race&quot; in RaceScheduleCurrent Component" />
+    <MESSAGE value="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="818" y="418" key="#ESLint" timestamp="1603220576519">
@@ -342,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603225980935">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603227004422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603225980935" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603227004422" />
     <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

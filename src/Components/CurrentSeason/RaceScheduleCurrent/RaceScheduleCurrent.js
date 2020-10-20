@@ -14,7 +14,7 @@ console.log(nextRace)
         <h1 className="h1_main_content">Календарь сезона 2020</h1>
         <div className="next-race">
             <p>Следующая гонка сезона:</p>
-            <p>{nextRace.length !== 0 ?
+            <p>{nextRace.length ?
                 nextRace[0].round + " " + nextRace[0].raceName + " " + nextRace[0].date + " " +  nextRace[0].circuit: ""}
                 </p>
         </div>
