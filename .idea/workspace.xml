@@ -13,289 +13,61 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
+    <list default="true" id="02e0be67-870d-430f-b898-f4672586cc70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/formula.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CurrentSeason/RaceScheduleCurrent/RaceScheduleCurrent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/News.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/News/NewsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/News/NewsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/newsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/newsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/circuitsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/circuitsReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitRewordedCommitMessages">
-    <option name="onto" value="997045cf9e4ed941831a101519ce899287f38291" />
-  </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="ProjectId" id="1geHnRr0OXAFCwQMW7iJgJcefdv" />
+  <component name="ProjectId" id="1kNw5NukirDgNcDHVSuIyk9uo97" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="P:\p\formula\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\f1_project\f1_project\src\img" />
-    </key>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d408e203-ed7d-416f-81df-cb7f1893fa6f" name="Default Changelist" comment="" />
-      <created>1598468304519</created>
+      <changelist id="02e0be67-870d-430f-b898-f4672586cc70" name="Default Changelist" comment="" />
+      <created>1605554172373</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598468304519</updated>
-      <workItem from="1598468307115" duration="931000" />
-      <workItem from="1598469239425" duration="361000" />
-      <workItem from="1598469602921" duration="53000" />
-      <workItem from="1598998907923" duration="56000" />
-      <workItem from="1599072345088" duration="58000" />
-      <workItem from="1599601015131" duration="2234000" />
-      <workItem from="1599679267686" duration="148000" />
-      <workItem from="1600110987921" duration="10461000" />
-      <workItem from="1600200015007" duration="7779000" />
-      <workItem from="1600287440867" duration="3110000" />
-      <workItem from="1600371263418" duration="9792000" />
-      <workItem from="1600544513558" duration="2124000" />
-      <workItem from="1600806433286" duration="3719000" />
-      <workItem from="1600886459263" duration="5797000" />
-      <workItem from="1603131073067" duration="11492000" />
-      <workItem from="1603144382169" duration="450000" />
-      <workItem from="1603219340397" duration="7668000" />
-      <workItem from="1603230488046" duration="2522000" />
+      <updated>1605554172373</updated>
+      <workItem from="1605554173405" duration="29000" />
+      <workItem from="1605554203417" duration="374000" />
+      <workItem from="1605554609613" duration="5000" />
+      <workItem from="1605731651967" duration="1190000" />
     </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1598468523101</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598468523101</updated>
-    </task>
-    <task id="LOCAL-00002" summary="AntDesign test Table Components">
-      <created>1599601722364</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599601722364</updated>
-    </task>
-    <task id="LOCAL-00003" summary="LeftMenu">
-      <created>1599603988030</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1599603988030</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add Thunk, Router, Redux, Reducer">
-      <created>1600112289882</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600112289882</updated>
-    </task>
-    <task id="LOCAL-00005" summary="circuitsReducer">
-      <created>1600113996162</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1600113996162</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Curcuits Component + Thunk + Api + Router">
-      <created>1600120805325</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1600120805325</updated>
-    </task>
-    <task id="LOCAL-00007" summary="News Component + Thunk + Api News">
-      <created>1600206435995</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1600206435995</updated>
-    </task>
-    <task id="LOCAL-00008" summary="CurrentSeason component">
-      <created>1600289075116</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1600289075116</updated>
-    </task>
-    <task id="LOCAL-00009" summary="CurrentSeason component + nested components">
-      <created>1600291044070</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1600291044070</updated>
-    </task>
-    <task id="LOCAL-00010" summary="antd tabs component + reformate component &quot;CurrentSeason&quot;">
-      <created>1600378002548</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1600378002548</updated>
-    </task>
-    <task id="LOCAL-00011" summary="RaceScheduleCurrent component">
-      <created>1600381313448</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1600381313448</updated>
-    </task>
-    <task id="LOCAL-00012" summary="RaceSchedule component + select - not finished">
-      <created>1600809442093</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1600809442093</updated>
-    </task>
-    <task id="LOCAL-00013" summary="RaceSchedule component + select - not finished">
-      <created>1600810122970</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1600810122970</updated>
-    </task>
-    <task id="LOCAL-00014" summary="RaceSchedule component + select">
-      <created>1600896681077</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1600896681077</updated>
-    </task>
-    <task id="LOCAL-00015" summary="CurrentDriverStandings">
-      <created>1603137098595</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1603137098595</updated>
-    </task>
-    <task id="LOCAL-00016" summary="CurrentDriverStandings + points difference">
-      <created>1603138030888</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1603138030888</updated>
-    </task>
-    <task id="LOCAL-00017" summary="First Page">
-      <created>1603141665772</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1603141665772</updated>
-    </task>
-    <task id="LOCAL-00018" summary="width main block">
-      <created>1603143455037</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1603143455037</updated>
-    </task>
-    <task id="LOCAL-00019" summary="style main block">
-      <created>1603144117493</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1603144117493</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add new favicon">
-      <created>1603144808617</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1603144808617</updated>
-    </task>
-    <task id="LOCAL-00021" summary="ConstructorStandingsCurrentSeason Component">
-      <created>1603222252508</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1603222252508</updated>
-    </task>
-    <task id="LOCAL-00022" summary="&quot;next Race&quot; in RaceScheduleCurrent Component">
-      <created>1603224990884</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1603224990884</updated>
-    </task>
-    <task id="LOCAL-00023" summary="&quot;next Race&quot; in RaceScheduleCurrent Component">
-      <created>1603225678071</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1603225678071</updated>
-    </task>
-    <task id="LOCAL-00024" summary="&quot;next Race&quot; in RaceScheduleCurrent Component">
-      <created>1603225979288</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1603225979288</updated>
-    </task>
-    <task id="LOCAL-00025" summary="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
-      <created>1603227002594</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1603227002594</updated>
-    </task>
-    <task id="LOCAL-00026" summary="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring">
-      <created>1603227245478</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1603227245478</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -309,83 +81,26 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <MESSAGE value="AntDesign test Table Components" />
-    <MESSAGE value="LeftMenu" />
-    <MESSAGE value="add Thunk, Router, Redux, Reducer" />
-    <MESSAGE value="circuitsReducer" />
-    <MESSAGE value="Curcuits Component + Thunk + Api + Router" />
-    <MESSAGE value="News Component + Thunk + Api News" />
-    <MESSAGE value="CurrentSeason component" />
-    <MESSAGE value="CurrentSeason component + nested components" />
-    <MESSAGE value="antd tabs component + reformate component &quot;CurrentSeason&quot;" />
-    <MESSAGE value="RaceScheduleCurrent component" />
-    <MESSAGE value="RaceSchedule component + select - not finished" />
-    <MESSAGE value="RaceSchedule component + select" />
-    <MESSAGE value="CurrentDriverStandings" />
-    <MESSAGE value="CurrentDriverStandings + points difference" />
-    <MESSAGE value="First Page" />
-    <MESSAGE value="width main block" />
-    <MESSAGE value="style main block" />
-    <MESSAGE value="add new favicon" />
-    <MESSAGE value="ConstructorStandingsCurrentSeason Component" />
-    <MESSAGE value="&quot;next Race&quot; in RaceScheduleCurrent Component" />
-    <MESSAGE value="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;next Race&quot; in RaceScheduleCurrent Component Refactoring" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="418" key="#ESLint" timestamp="1603220576519">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1605554613013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="418" key="#ESLint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603220576519" />
-    <state x="655" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600807235959">
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605554613013" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1605554583570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600807235959" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600808469790">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605554583570" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1605554583569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600808469790" />
-    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog" timestamp="1598469402061">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605554583569" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1605554583569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469402061" />
-    <state x="195" y="71" key="MergeDialog" timestamp="1598469553158">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605554583569" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1605554583570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="195" y="71" key="MergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469553158" />
-    <state x="840" y="385" key="MultipleFileMergeDialog" timestamp="1598469553164">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="840" y="385" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469553164" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1599072380391">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599072380391" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603227004422">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603227004422" />
-    <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598468422937">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="767" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598468422937" />
-    <state x="640" y="293" key="git4idea.merge.GitPullDialog" timestamp="1598469077018">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="293" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469077018" />
-    <state x="769" y="362" width="382" height="318" key="git4idea.rebase.GitRebaseDialog" timestamp="1598469395314">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="362" width="382" height="318" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469395314" />
-    <state x="763" y="427" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1598469554633">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="427" key="git4idea.rebase.GitUnstructuredEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469554633" />
-    <state x="713" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598469028526">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="713" y="415" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598469028526" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605554583570" />
   </component>
 </project>
